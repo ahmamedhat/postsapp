@@ -12,7 +12,7 @@ function RootNavigation() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsReady(true);
-    }, 1500);
+    }, 2500);
 
     return () => clearTimeout(timer);
   }, []);
